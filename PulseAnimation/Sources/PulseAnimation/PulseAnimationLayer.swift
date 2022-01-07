@@ -73,7 +73,7 @@ public class PulseAnimationLayer: CALayer {
         super.init(layer: layer)
     }
     
-    public init(duration: CFTimeInterval = 1, repeatCount: Float = 4, radius: CGFloat = 200, color: UIColor = .systemRed) {
+    public init(duration: CFTimeInterval = 0.8, repeatCount: Float = 1, radius: CGFloat = 200, color: UIColor = .systemRed) {
         super.init()
         opacity = .zero
         backgroundColor = color.cgColor
