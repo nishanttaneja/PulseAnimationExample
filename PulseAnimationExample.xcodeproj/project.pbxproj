@@ -13,6 +13,7 @@
 		B4647B532788BCB2002E6509 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4647B512788BCB2002E6509 /* Main.storyboard */; };
 		B4647B552788BCB2002E6509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4647B542788BCB2002E6509 /* Assets.xcassets */; };
 		B4647B582788BCB2002E6509 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4647B562788BCB2002E6509 /* LaunchScreen.storyboard */; };
+		B4647B662788C02F002E6509 /* PulseAnimation in Frameworks */ = {isa = PBXBuildFile; productRef = B4647B652788C02F002E6509 /* PulseAnimation */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4647B662788C02F002E6509 /* PulseAnimation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +94,7 @@
 			);
 			name = PulseAnimationExample;
 			packageProductDependencies = (
+				B4647B652788C02F002E6509 /* PulseAnimation */,
 			);
 			productName = PulseAnimationExample;
 			productReference = B4647B482788BCB2002E6509 /* PulseAnimationExample.app */;
@@ -121,6 +124,9 @@
 				Base,
 			);
 			mainGroup = B4647B3F2788BCB2002E6509;
+			packageReferences = (
+				B4647B642788C02E002E6509 /* XCRemoteSwiftPackageReference "PulseAnimation" */,
+			);
 			productRefGroup = B4647B492788BCB2002E6509 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -370,6 +376,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B4647B642788C02E002E6509 /* XCRemoteSwiftPackageReference "PulseAnimation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nishanttaneja/PulseAnimation";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B4647B652788C02F002E6509 /* PulseAnimation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4647B642788C02E002E6509 /* XCRemoteSwiftPackageReference "PulseAnimation" */;
+			productName = PulseAnimation;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B4647B402788BCB2002E6509 /* Project object */;
 }
