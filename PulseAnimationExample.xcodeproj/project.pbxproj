@@ -24,6 +24,7 @@
 		B4647B542788BCB2002E6509 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4647B572788BCB2002E6509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4647B592788BCB2002E6509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4647B602788BCE0002E6509 /* PulseAnimation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PulseAnimation; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 		B4647B3F2788BCB2002E6509 = {
 			isa = PBXGroup;
 			children = (
+				B4647B602788BCE0002E6509 /* PulseAnimation */,
 				B4647B4A2788BCB2002E6509 /* PulseAnimationExample */,
 				B4647B492788BCB2002E6509 /* Products */,
 			);
