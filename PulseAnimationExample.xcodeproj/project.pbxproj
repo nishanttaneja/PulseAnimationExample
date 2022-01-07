@@ -13,7 +13,6 @@
 		B4647B532788BCB2002E6509 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4647B512788BCB2002E6509 /* Main.storyboard */; };
 		B4647B552788BCB2002E6509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4647B542788BCB2002E6509 /* Assets.xcassets */; };
 		B4647B582788BCB2002E6509 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4647B562788BCB2002E6509 /* LaunchScreen.storyboard */; };
-		B4647B632788BD6D002E6509 /* PulseAnimation in Frameworks */ = {isa = PBXBuildFile; productRef = B4647B622788BD6D002E6509 /* PulseAnimation */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		B4647B542788BCB2002E6509 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4647B572788BCB2002E6509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4647B592788BCB2002E6509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4647B602788BCE0002E6509 /* PulseAnimation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PulseAnimation; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +31,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4647B632788BD6D002E6509 /* PulseAnimation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,7 +40,6 @@
 		B4647B3F2788BCB2002E6509 = {
 			isa = PBXGroup;
 			children = (
-				B4647B602788BCE0002E6509 /* PulseAnimation */,
 				B4647B4A2788BCB2002E6509 /* PulseAnimationExample */,
 				B4647B492788BCB2002E6509 /* Products */,
 				B4647B612788BD6D002E6509 /* Frameworks */,
@@ -96,7 +92,6 @@
 			);
 			name = PulseAnimationExample;
 			packageProductDependencies = (
-				B4647B622788BD6D002E6509 /* PulseAnimation */,
 			);
 			productName = PulseAnimationExample;
 			productReference = B4647B482788BCB2002E6509 /* PulseAnimationExample.app */;
@@ -375,13 +370,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		B4647B622788BD6D002E6509 /* PulseAnimation */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = PulseAnimation;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B4647B402788BCB2002E6509 /* Project object */;
 }
