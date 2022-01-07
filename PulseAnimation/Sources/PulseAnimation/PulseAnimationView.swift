@@ -9,6 +9,21 @@ import UIKit
 
 public class PulseAnimationView: UIView {
     
+    // MARK: - Subview
+    
+    private let textLabel = UILabel()
+    
+    private func addTextLabel() {
+        textLabel.text = "Tap anywhere!"
+        textLabel.translatesAutoresizingMaskIntoConstraints = false
+        addSubview(textLabel)
+        NSLayoutConstraint.activate([
+            textLabel.centerXAnchor.constraint(equalTo: centerXAnchor),
+            textLabel.centerYAnchor.constraint(equalTo: centerYAnchor)
+        ])
+    }
+    
+    
     // MARK: - AnimationLayer
     
     public let pulseAnimationLayer = PulseAnimationLayer()
@@ -35,6 +50,7 @@ public class PulseAnimationView: UIView {
         clipsToBounds = true
         layer.addSublayer(pulseAnimationLayer)
         addGestures()
+        addTextLabel()
     }
     
     required init?(coder: NSCoder) {
